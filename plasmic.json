@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -47,7 +47,8 @@
           "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
@@ -69,7 +70,8 @@
           "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
       ],
-      "customFunctions": []
+      "customFunctions": [],
+      "jsBundleThemes": []
     },
     {
       "projectId": "jqHMejC8dcPyddaS4gmqUt",
@@ -418,6 +420,16 @@
           "id": "_BA5gskUqD9t",
           "name": "maps-1-min.png",
           "filePath": "../public/plasmic/otterworld/images/maps1Minpng.png"
+        },
+        {
+          "id": "GXzLqSGigrwW",
+          "name": "Group 5 (2).png",
+          "filePath": "../public/plasmic/otterworld/images/group52Png.png"
+        },
+        {
+          "id": "D2ib0rZuPyjI",
+          "name": "Group 4 (4).png",
+          "filePath": "../public/plasmic/otterworld/images/group44Png.png"
         }
       ],
       "indirect": false,

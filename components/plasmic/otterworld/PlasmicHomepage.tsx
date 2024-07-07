@@ -161,118 +161,121 @@ function PlasmicHomepage__RenderFunc(props: {
             title={"Otter World"}
           />
 
-          <NavigationBar
-            data-plasmic-name={"navigationBar"}
-            data-plasmic-override={overrides.navigationBar}
-            brand={
-              <PlasmicLink__
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  sty.link__kugtq
-                )}
-                component={Link}
-                href={"#"}
-                platform={"nextjs"}
-              >
-                <PlasmicImg__
-                  alt={"otter logo"}
-                  className={classNames(sty.img__z2Kzs)}
-                  displayHeight={"40px"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"none"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"auto"}
-                  src={{
-                    src: "/plasmic/otterworld/images/group41Png.png",
-                    fullWidth: 1302,
-                    fullHeight: 315,
-                    aspectRatio: undefined
-                  }}
-                />
-              </PlasmicLink__>
-            }
-            className={classNames("__wab_instance", sty.navigationBar)}
-            closeButton={
-              <PlasmicImg__
-                alt={""}
-                className={classNames(sty.img___8AfW)}
-                displayHeight={"auto"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"none"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"auto"}
-                src={"https://static1.plasmic.app/close.svg"}
+          <div className={classNames(projectcss.all, sty.freeBox__eo8H0)}>
+            <div className={classNames(projectcss.all, sty.freeBox__rGyS7)}>
+              <NavigationBar
+                data-plasmic-name={"navigationBar"}
+                data-plasmic-override={overrides.navigationBar}
+                brand={
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__kugtq
+                    )}
+                    component={Link}
+                    href={"#"}
+                    platform={"nextjs"}
+                  >
+                    <PlasmicImg__
+                      alt={"otter logo"}
+                      className={classNames(sty.img__z2Kzs)}
+                      displayHeight={"40px"}
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={"none"}
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={"auto"}
+                      src={{
+                        src: "/plasmic/otterworld/images/group52Png.png",
+                        fullWidth: 1302,
+                        fullHeight: 315,
+                        aspectRatio: undefined
+                      }}
+                    />
+                  </PlasmicLink__>
+                }
+                className={classNames("__wab_instance", sty.navigationBar)}
+                closeButton={
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img___8AfW)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"none"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    src={"https://static1.plasmic.app/close.svg"}
+                  />
+                }
+                itemsGap={24}
+                menuItems={
+                  <React.Fragment>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__sW0DJ
+                      )}
+                      component={Link}
+                      href={"/"}
+                      platform={"nextjs"}
+                    >
+                      <Twitter2SvgrepoComsvgIcon
+                        className={classNames(projectcss.all, sty.svg__upSgn)}
+                        role={"img"}
+                      />
+                    </PlasmicLink__>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link___8Q603
+                      )}
+                      component={Link}
+                      href={"/"}
+                      platform={"nextjs"}
+                    >
+                      <TelegramSvgrepoComsvgIcon
+                        className={classNames(projectcss.all, sty.svg__fSkf4)}
+                        role={"img"}
+                      />
+                    </PlasmicLink__>
+                    <PlasmicLink__
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.link__aAOl2
+                      )}
+                      component={Link}
+                      href={"/"}
+                      platform={"nextjs"}
+                    >
+                      <GitbookSvgrepoComsvgIcon
+                        className={classNames(projectcss.all, sty.svg__ztyoT)}
+                        role={"img"}
+                      />
+                    </PlasmicLink__>
+                  </React.Fragment>
+                }
+                openButton={
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img___2Ee0E)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"none"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    src={"https://static1.plasmic.app/menu.svg"}
+                  />
+                }
+                responsiveBreakpoint={768}
               />
-            }
-            itemsGap={24}
-            menuItems={
-              <React.Fragment>
-                <PlasmicLink__
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    sty.link__sW0DJ
-                  )}
-                  component={Link}
-                  href={"/"}
-                  platform={"nextjs"}
-                >
-                  <Twitter2SvgrepoComsvgIcon
-                    className={classNames(projectcss.all, sty.svg__upSgn)}
-                    role={"img"}
-                  />
-                </PlasmicLink__>
-                <PlasmicLink__
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    sty.link___8Q603
-                  )}
-                  component={Link}
-                  href={"/"}
-                  platform={"nextjs"}
-                >
-                  <TelegramSvgrepoComsvgIcon
-                    className={classNames(projectcss.all, sty.svg__fSkf4)}
-                    role={"img"}
-                  />
-                </PlasmicLink__>
-                <PlasmicLink__
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    sty.link__aAOl2
-                  )}
-                  component={Link}
-                  href={"/"}
-                  platform={"nextjs"}
-                >
-                  <GitbookSvgrepoComsvgIcon
-                    className={classNames(projectcss.all, sty.svg__ztyoT)}
-                    role={"img"}
-                  />
-                </PlasmicLink__>
-              </React.Fragment>
-            }
-            openButton={
-              <PlasmicImg__
-                alt={""}
-                className={classNames(sty.img___2Ee0E)}
-                displayHeight={"auto"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"none"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"auto"}
-                src={"https://static1.plasmic.app/menu.svg"}
-              />
-            }
-            responsiveBreakpoint={768}
-          />
-
+            </div>
+          </div>
           <section className={classNames(projectcss.all, sty.section__xWoaY)}>
             <div className={classNames(projectcss.all, sty.freeBox__qVJgR)}>
               <h1
