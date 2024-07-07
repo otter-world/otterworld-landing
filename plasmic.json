@@ -1,0 +1,459 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "84wxoth5npGrp6RRXPL88z",
+      "projectApiToken": "hOzXksPB8gkTrKnfJeV9VDS8m8dnIXQn1xxDQZ5MHxv9orQY6JNgwmk6aDMZPLkocV2KtD9gNJXv5JwIbbzIQ",
+      "projectName": "react-scroll-parallax-global",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_scroll_parallax_global/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/react_scroll_parallax_global/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "bozP4lLlAZ",
+          "name": "ParallaxWrapper",
+          "displayName": "hostless-scroll-parallax",
+          "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
+        },
+        {
+          "id": "L6MfauX2Cw",
+          "name": "ParallaxProviderWrapper",
+          "displayName": "global-parallax-provider",
+          "componentImportPath": "@plasmicpkgs/react-scroll-parallax"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "projectApiToken": "uZp069FLSLNVA2dpWnqC3BUaj3flvtNBNXt6e1b67rm4Uh6lGHgYJ65FCBXlOFTB5KDW7RmmOxIAzgHYCg",
+      "projectName": "plasmic-nav",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/plasmic_nav/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jGx9tiKJoex",
+          "name": "NavigationBar",
+          "displayName": "hostless-plasmic-navigation-bar",
+          "componentImportPath": "@plasmicpkgs/plasmic-nav"
+        }
+      ],
+      "customFunctions": []
+    },
+    {
+      "projectId": "jqHMejC8dcPyddaS4gmqUt",
+      "projectApiToken": "l8mqQ3SI9XflEPqaYh5yvONxuYXXC896Po8tP7rV5iNwLDnNjfNaq9KOB1ZVPYAyLjGRYiwL5ItUvAlbvVA",
+      "projectName": "Otterworld",
+      "version": "latest",
+      "cssFilePath": "plasmic/otterworld/plasmic.module.css",
+      "components": [
+        {
+          "id": "8uRuDIsw_Axd",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "jqHMejC8dcPyddaS4gmqUt",
+          "renderModuleFilePath": "plasmic/otterworld/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/otterworld/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/"
+        },
+        {
+          "id": "-OeynXv3MoWt",
+          "name": "Card",
+          "type": "managed",
+          "projectId": "jqHMejC8dcPyddaS4gmqUt",
+          "renderModuleFilePath": "plasmic/otterworld/PlasmicCard.tsx",
+          "importSpec": {
+            "modulePath": "Card.tsx"
+          },
+          "cssFilePath": "plasmic/otterworld/PlasmicCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "cV4cuMllBGg8",
+          "name": "Twitter2SvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/otterworld/icons/PlasmicIcon__Twitter2SvgrepoComsvg.tsx"
+        },
+        {
+          "id": "p8ya4hJMYEbR",
+          "name": "TelegramSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/otterworld/icons/PlasmicIcon__TelegramSvgrepoComsvg.tsx"
+        },
+        {
+          "id": "5vLE0s1yfrCg",
+          "name": "GitbookSvgrepoComsvgIcon",
+          "moduleFilePath": "plasmic/otterworld/icons/PlasmicIcon__GitbookSvgrepoComsvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "LmU5mCuC1JuH",
+          "name": "DALL·E 2024-05-23 16.04.34 - A vibrant and playful illustration of a game stage in an otter world, depicting crypto storage wallets. The scene features an otter character happily .webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240523160434AVibrantAndPlayfulIllustrationOfAGameStageInAnOtterWorldDepictingCryptoStorageWalletsTheSceneFeaturesAnOtterCharacterHappilyWebp.webp"
+        },
+        {
+          "id": "aXg1Tyoq-_D8",
+          "name": "DALL·E 2024-05-23 16.04.36 - A vibrant and playful illustration of a game stage in an otter world, depicting a crypto launchpad. The scene features an otter character excitedly pr.webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240523160436AVibrantAndPlayfulIllustrationOfAGameStageInAnOtterWorldDepictingACryptoLaunchpadTheSceneFeaturesAnOtterCharacterExcitedlyPrwebp.webp"
+        },
+        {
+          "id": "O-wfSwWUgaP2",
+          "name": "DALL·E 2024-05-23 16.04.43 - A vibrant and playful illustration of a game stage in an otter world, depicting a crypto community space. The scene features otter characters happily .webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240523160443AVibrantAndPlayfulIllustrationOfAGameStageInAnOtterWorldDepictingACryptoCommunitySpaceTheSceneFeaturesOtterCharactersHappilyWebp.webp"
+        },
+        {
+          "id": "vXHBxyk5LJFV",
+          "name": "DALL·E 2024-05-23 16.04.48 - A vibrant and playful illustration of a game stage in an otter world, depicting a meme coin space. The scene features otter characters engaging in hum.webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240523160448AVibrantAndPlayfulIllustrationOfAGameStageInAnOtterWorldDepictingAMemeCoinSpaceTheSceneFeaturesOtterCharactersEngagingInHumwebp.webp"
+        },
+        {
+          "id": "zJ5k_4DiOAwu",
+          "name": "DALL·E 2024-05-23 16.04.51 - A vibrant and playful illustration of a game stage in an otter world, depicting an airdrop space. The scene features otter characters joyfully receivi.webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240523160451AVibrantAndPlayfulIllustrationOfAGameStageInAnOtterWorldDepictingAnAirdropSpaceTheSceneFeaturesOtterCharactersJoyfullyReceiviwebp.webp"
+        },
+        {
+          "id": "n8dzbM4mv5bw",
+          "name": "bg-otter.png",
+          "filePath": "../public/plasmic/otterworld/images/bgOtterpng.png"
+        },
+        {
+          "id": "0keFdTqb0I8z",
+          "name": "otter-char.png",
+          "filePath": "../public/plasmic/otterworld/images/otterCharpng.png"
+        },
+        {
+          "id": "g8x54nrwaVNG",
+          "name": "Untitled design (13).png",
+          "filePath": "../public/plasmic/otterworld/images/untitledDesign13Png.png"
+        },
+        {
+          "id": "LM_RHVQabTqZ",
+          "name": "DALL·E 2024-05-23 23.47.25 - A vibrant and playful illustration of an otter searching for a wallet scene in portrait mode. The scene features a cheerful otter character actively l.webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240523234725AVibrantAndPlayfulIllustrationOfAnOtterSearchingForAWalletSceneInPortraitModeTheSceneFeaturesACheerfulOtterCharacterActivelyLwebp.webp"
+        },
+        {
+          "id": "mFep6MoJk_QZ",
+          "name": "DALL·E 2024-05-23 23.54.25 - A vibrant and playful illustration of an otter game in portrait mode, featuring an otter launching a rocket. The background is a solid royal blue with.webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240523235425AVibrantAndPlayfulIllustrationOfAnOtterGameInPortraitModeFeaturingAnOtterLaunchingARocketTheBackgroundIsASolidRoyalBlueWithwebp.webp"
+        },
+        {
+          "id": "XkoU-2nlVqCH",
+          "name": "DALL·E 2024-05-23 23.55.56 - A vibrant and playful illustration of an otter game in portrait mode, featuring an otter mining a meme coin. The background is a solid royal blue with.webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240523235556AVibrantAndPlayfulIllustrationOfAnOtterGameInPortraitModeFeaturingAnOtterMiningAMemeCoinTheBackgroundIsASolidRoyalBlueWithwebp.webp"
+        },
+        {
+          "id": "NjKsgq-V_yNr",
+          "name": "DALL·E 2024-05-24 14.12.37 - Design a game background using a royal blue color scheme with vibrant and playful colors. The scene should be wide screen ratio and feature elements s.webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240524141237DesignAGameBackgroundUsingARoyalBlueColorSchemeWithVibrantAndPlayfulColorsTheSceneShouldBeWideScreenRatioAndFeatureElementsSwebp.webp"
+        },
+        {
+          "id": "gA867ULMVw5L",
+          "name": "bg.webp",
+          "filePath": "../public/plasmic/otterworld/images/bgwebp.webp"
+        },
+        {
+          "id": "kWFQcX3tL0Sg",
+          "name": "image1.png",
+          "filePath": "../public/plasmic/otterworld/images/image1Png.png"
+        },
+        {
+          "id": "jl0tBNO9bdeZ",
+          "name": "image2.png",
+          "filePath": "../public/plasmic/otterworld/images/image2Png.png"
+        },
+        {
+          "id": "xwuvkyHXqUiB",
+          "name": "image3.png",
+          "filePath": "../public/plasmic/otterworld/images/image3Png.png"
+        },
+        {
+          "id": "42UAKIsbDoLn",
+          "name": "image1-edit.png",
+          "filePath": "../public/plasmic/otterworld/images/image1Editpng.png"
+        },
+        {
+          "id": "PPcr5q4djt4V",
+          "name": "image2-edit.png",
+          "filePath": "../public/plasmic/otterworld/images/image2Editpng.png"
+        },
+        {
+          "id": "KxKqoGMZwKXS",
+          "name": "image3-edit.png",
+          "filePath": "../public/plasmic/otterworld/images/image3Editpng.png"
+        },
+        {
+          "id": "Km-uDT1DWaP0",
+          "name": "Group 4 (1).png",
+          "filePath": "../public/plasmic/otterworld/images/group41Png.png"
+        },
+        {
+          "id": "TmosTKvfVpNJ",
+          "name": "bg1.webp",
+          "filePath": "../public/plasmic/otterworld/images/bg1Webp.webp"
+        },
+        {
+          "id": "PjXTr7bsi1gd",
+          "name": "bg-otter1.png",
+          "filePath": "../public/plasmic/otterworld/images/bgOtter1Png.png"
+        },
+        {
+          "id": "PDQfjB8fOv_Y",
+          "name": "bg-planet1.webp",
+          "filePath": "../public/plasmic/otterworld/images/bgPlanet1Webp.webp"
+        },
+        {
+          "id": "TWi_D6aYrVwW",
+          "name": "bg-planet2.webp",
+          "filePath": "../public/plasmic/otterworld/images/bgPlanet2Webp.webp"
+        },
+        {
+          "id": "PqeZlgNhL4Ah",
+          "name": "bg-planet1.webp 2",
+          "filePath": "../public/plasmic/otterworld/images/bgPlanet1Webp2.webp"
+        },
+        {
+          "id": "ir39GTocxvva",
+          "name": "DALL·E 2024-06-17 15.36.40 - A playful and vibrant 2D flat illustration of a light brown otter standing excitedly on an alien planet, holding a coin and showing it to the camera. .webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240617153640APlayfulAndVibrant2DFlatIllustrationOfALightBrownOtterStandingExcitedlyOnAnAlienPlanetHoldingACoinAndShowingItToTheCameraWebp.webp"
+        },
+        {
+          "id": "FHPVdKI4HR2P",
+          "name": "otter-cess.webp",
+          "filePath": "../public/plasmic/otterworld/images/otterCesswebp.webp"
+        },
+        {
+          "id": "q6IMsGbByIdJ",
+          "name": "land1.webp",
+          "filePath": "../public/plasmic/otterworld/images/land1Webp.webp"
+        },
+        {
+          "id": "oH2IqWicoDn3",
+          "name": "DALL·E 2024-07-04 19.44.40 - A 2D flat illustration of a floating island icon representing 'The Key to Prosperity' for otters. The island should have a lush and abundant feel with.webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240704194440A2DFlatIllustrationOfAFloatingIslandIconRepresentingTheKeyToProsperityForOttersTheIslandShouldHaveALushAndAbundantFeelWithwebp.webp"
+        },
+        {
+          "id": "3BROY6JcpUCd",
+          "name": "Untitled design (14).png",
+          "filePath": "../public/plasmic/otterworld/images/untitledDesign14Png.png"
+        },
+        {
+          "id": "EqZPmcdqw7Ri",
+          "name": "land.png",
+          "filePath": "../public/plasmic/otterworld/images/landpng.png"
+        },
+        {
+          "id": "5SC8_pCr6Zf_",
+          "name": "land (1).png",
+          "filePath": "../public/plasmic/otterworld/images/land1Png.png"
+        },
+        {
+          "id": "DMrma3HX7xcG",
+          "name": "land (2).png",
+          "filePath": "../public/plasmic/otterworld/images/land2Png.png"
+        },
+        {
+          "id": "pUg8uwrV0ErN",
+          "name": "land (3).png",
+          "filePath": "../public/plasmic/otterworld/images/land3Png.png"
+        },
+        {
+          "id": "XvTHrOX78Ycx",
+          "name": "land4.webp",
+          "filePath": "../public/plasmic/otterworld/images/land4Webp.webp"
+        },
+        {
+          "id": "Xj4rUniY4oOQ",
+          "name": "portal.png",
+          "filePath": "../public/plasmic/otterworld/images/portalpng.png"
+        },
+        {
+          "id": "6x1ILqB0cIWt",
+          "name": "Untitled design (15).png",
+          "filePath": "../public/plasmic/otterworld/images/untitledDesign15Png.png"
+        },
+        {
+          "id": "flLtm4aDKUMf",
+          "name": "Untitled design (16).png",
+          "filePath": "../public/plasmic/otterworld/images/untitledDesign16Png.png"
+        },
+        {
+          "id": "h8nsMIW_x9_i",
+          "name": "maps.png",
+          "filePath": "../public/plasmic/otterworld/images/mapspng.png"
+        },
+        {
+          "id": "ILYYBuzBJ3vJ",
+          "name": "maps-transparent-min.png",
+          "filePath": "../public/plasmic/otterworld/images/mapsTransparentMinpng.png"
+        },
+        {
+          "id": "wzHi20g6jKSW",
+          "name": "DALL·E 2024-07-06 15.52.26 - A serene and magical game background representing the Otter Kingdom, which stands on an island floating in the sky. The aspect ratio should be 16_9. T.webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240706155226ASereneAndMagicalGameBackgroundRepresentingTheOtterKingdomWhichStandsOnAnIslandFloatingInTheSkyTheAspectRatioShouldBe169Twebp.webp"
+        },
+        {
+          "id": "DkJ33qCUJcsm",
+          "name": "DALL·E 2024-07-06 17.09.00 - A playful and vibrant 2D flat illustration of an otter character standing on a floating island in a magical kingdom. The otter has a light brown body .webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240706170900APlayfulAndVibrant2DFlatIllustrationOfAnOtterCharacterStandingOnAFloatingIslandInAMagicalKingdomTheOtterHasALightBrownBodyWebp.webp"
+        },
+        {
+          "id": "T5Y0z-pjNt_l",
+          "name": "hero-image.webp",
+          "filePath": "../public/plasmic/otterworld/images/heroImagewebp.webp"
+        },
+        {
+          "id": "3IRj98ADNlz4",
+          "name": "hoer-home-image-min.png",
+          "filePath": "../public/plasmic/otterworld/images/hoerHomeImageMinpng.png"
+        },
+        {
+          "id": "VvvKsfvyuXMo",
+          "name": "hero-image-edit.webp",
+          "filePath": "../public/plasmic/otterworld/images/heroImageEditwebp.webp"
+        },
+        {
+          "id": "p28D9_xTXQKl",
+          "name": "DALL·E 2024-07-06 18.07.04 - Create an illustration of a planet containing only the 'Otter Kingdom' without any other ornaments. The planet should feature basic elements like cast.webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240706180704CreateAnIllustrationOfAPlanetContainingOnlyTheOtterKingdomWithoutAnyOtherOrnamentsThePlanetShouldFeatureBasicElementsLikeCastwebp.webp"
+        },
+        {
+          "id": "fMUV6rxLVyBQ",
+          "name": "placeholder-logo-1.png",
+          "filePath": "../public/plasmic/otterworld/images/placeholderLogo1Png.png"
+        },
+        {
+          "id": "ixUg1JxXBX3T",
+          "name": "ctabanner123-min.png",
+          "filePath": "../public/plasmic/otterworld/images/ctabanner123Minpng.png"
+        },
+        {
+          "id": "T7RlD4xjHum7",
+          "name": "cta-otter-min.png",
+          "filePath": "../public/plasmic/otterworld/images/ctaOtterMinpng.png"
+        },
+        {
+          "id": "MtR-ZO3m1TPb",
+          "name": "image",
+          "filePath": "../public/plasmic/otterworld/images/image.png"
+        },
+        {
+          "id": "IDu9XG54QaBj",
+          "name": "buttonapps.png",
+          "filePath": "../public/plasmic/otterworld/images/buttonappspng.png"
+        },
+        {
+          "id": "jrm-dgKj69pE",
+          "name": "DALL·E 2024-07-06 20.26.19 - A cute otter character with a light brown body and a white belly and face, large expressive eyes, a small black nose, and a cheerful smile. The otter .webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240706202619ACuteOtterCharacterWithALightBrownBodyAndAWhiteBellyAndFaceLargeExpressiveEyesASmallBlackNoseAndACheerfulSmileTheOtterWebp.webp"
+        },
+        {
+          "id": "DteNK-mRhj5I",
+          "name": "DALL·E 2024-07-06 20.31.26 - A cute otter character with a light brown body and a white belly and face, large expressive eyes, a small black nose, and a cheerful smile. The otter .webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240706203126ACuteOtterCharacterWithALightBrownBodyAndAWhiteBellyAndFaceLargeExpressiveEyesASmallBlackNoseAndACheerfulSmileTheOtterWebp.webp"
+        },
+        {
+          "id": "NOkm1aOy674I",
+          "name": "DALL·E 2024-07-06 20.33.26 - A cute otter character with a light brown body and a white belly and face, large expressive eyes, a small black nose, and a cheerful smile. The otter .webp",
+          "filePath": "../public/plasmic/otterworld/images/dalle20240706203326ACuteOtterCharacterWithALightBrownBodyAndAWhiteBellyAndFaceLargeExpressiveEyesASmallBlackNoseAndACheerfulSmileTheOtterWebp.webp"
+        },
+        {
+          "id": "6Lp576NXMD68",
+          "name": "otterwallet.png",
+          "filePath": "../public/plasmic/otterworld/images/otterwalletpng.png"
+        },
+        {
+          "id": "L0HePbXa9zkB",
+          "name": "otterwallet.png 2",
+          "filePath": "../public/plasmic/otterworld/images/otterwalletpng2.png"
+        },
+        {
+          "id": "QOQUypYxx5-G",
+          "name": "otterAI.png",
+          "filePath": "../public/plasmic/otterworld/images/otterAIpng.png"
+        },
+        {
+          "id": "esua8GtGNtQM",
+          "name": "otterchest.png",
+          "filePath": "../public/plasmic/otterworld/images/otterchestpng.png"
+        },
+        {
+          "id": "_BA5gskUqD9t",
+          "name": "maps-1-min.png",
+          "filePath": "../public/plasmic/otterworld/images/maps1Minpng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/otterworld/PlasmicGlobalContextsProvider.tsx",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CKiBE_tYVEjp",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "8Ts3UkO6iSxz",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ],
+      "customFunctions": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "v6jzT4azP0Fn",
+        "name": "Screen",
+        "projectId": "jqHMejC8dcPyddaS4gmqUt",
+        "contextFilePath": "plasmic/otterworld/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.330",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.330/dist/plasmic.schema.json"
+}
