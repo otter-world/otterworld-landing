@@ -61,6 +61,7 @@ import {
 
 import { PlasmicHead } from "@plasmicapp/react-web";
 import { NavigationBar } from "@plasmicpkgs/plasmic-nav";
+import { Reveal } from "@plasmicpkgs/react-awesome-reveal";
 
 import { useScreenVariants as useScreenVariantsv6JzT4AzP0Fn } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: v6jzT4azP0Fn/globalVariant
 
@@ -88,6 +89,8 @@ export type PlasmicHomepage__OverridesType = {
   root?: Flex__<"div">;
   pageMetadataOverride?: Flex__<typeof PlasmicHead>;
   navigationBar?: Flex__<typeof NavigationBar>;
+  h5?: Flex__<"h5">;
+  h2?: Flex__<"h2">;
 };
 
 export interface DefaultHomepageProps {}
@@ -180,16 +183,16 @@ function PlasmicHomepage__RenderFunc(props: {
                     <PlasmicImg__
                       alt={"otter logo"}
                       className={classNames(sty.img__z2Kzs)}
-                      displayHeight={"40px"}
+                      displayHeight={"52px"}
                       displayMaxHeight={"none"}
                       displayMaxWidth={"none"}
                       displayMinHeight={"0"}
                       displayMinWidth={"0"}
                       displayWidth={"auto"}
                       src={{
-                        src: "/plasmic/otterworld/images/group52Png.png",
-                        fullWidth: 1302,
-                        fullHeight: 315,
+                        src: "/plasmic/otterworld/images/textOtterworldpng.png",
+                        fullWidth: 4000,
+                        fullHeight: 2667,
                         aspectRatio: undefined
                       }}
                     />
@@ -277,324 +280,603 @@ function PlasmicHomepage__RenderFunc(props: {
             </div>
           </div>
           <section className={classNames(projectcss.all, sty.section__xWoaY)}>
-            <div className={classNames(projectcss.all, sty.freeBox__qVJgR)}>
-              <h1
-                className={classNames(
-                  projectcss.all,
-                  projectcss.h1,
-                  projectcss.__wab_text,
-                  sty.h1__d8Ckf
-                )}
-              >
-                {"Welcome to Otterworld"}
-              </h1>
-              <h4
-                className={classNames(
-                  projectcss.all,
-                  projectcss.h4,
-                  projectcss.__wab_text,
-                  sty.h4__hvIov
-                )}
-              >
-                {
-                  "The fun and friendly DeFi platform where innovation meets security."
-                }
-              </h4>
+            <div className={classNames(projectcss.all, sty.freeBox__d0IEh)}>
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img___8Sf1Q)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"none"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"auto"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/otterworld/images/cloud1Png.png",
+                  fullWidth: 3000,
+                  fullHeight: 1500,
+                  aspectRatio: undefined
+                }}
+              />
+
+              <div className={classNames(projectcss.all, sty.freeBox___5SCng)}>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img___5I3HI)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "100%"
+                      : "60%"
+                  }
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/otterworld/images/textOtterworldpng.png",
+                    fullWidth: 4000,
+                    fullHeight: 2667,
+                    aspectRatio: undefined
+                  }}
+                />
+
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__eejl1)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "100%"
+                      : "50%"
+                  }
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/otterworld/images/characterpng.png",
+                    fullWidth: 1828,
+                    fullHeight: 1828,
+                    aspectRatio: undefined
+                  }}
+                />
+
+                <div
+                  className={classNames(projectcss.all, sty.freeBox___26MAq)}
+                >
+                  <h5
+                    data-plasmic-name={"h5"}
+                    data-plasmic-override={overrides.h5}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h5,
+                      projectcss.__wab_text,
+                      sty.h5
+                    )}
+                  >
+                    {"Learn More"}
+                  </h5>
+                </div>
+              </div>
+              <PlasmicImg__
+                alt={""}
+                className={classNames(sty.img__sgmcb)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"none"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"auto"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/otterworld/images/cloud2Png.png",
+                  fullWidth: 3000,
+                  fullHeight: 1500,
+                  aspectRatio: undefined
+                }}
+              />
             </div>
           </section>
           <section className={classNames(projectcss.all, sty.section__n5Zyj)}>
             <div className={classNames(projectcss.all, sty.columns__pm2Hj)}>
               <div className={classNames(projectcss.all, sty.column__xOouk)}>
-                <PlasmicImg__
-                  alt={""}
-                  className={classNames(sty.img__yLvab)}
-                  displayHeight={"auto"}
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={"100%"}
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={"100%"}
-                  loading={"lazy"}
-                  src={{
-                    src: "/plasmic/otterworld/images/land1Webp.webp",
-                    fullWidth: 1024,
-                    fullHeight: 1024,
-                    aspectRatio: undefined
-                  }}
-                />
+                <Reveal
+                  className={classNames("__wab_instance", sty.reveal__ha3Pu)}
+                  direction={"left"}
+                  effect={"slide"}
+                  triggerOnce={true}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__buigq)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/otterworld/images/pp1Compng.png",
+                      fullWidth: 1000,
+                      fullHeight: 1000,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </Reveal>
               </div>
               <Stack__
                 as={"div"}
                 hasGap={true}
                 className={classNames(projectcss.all, sty.column__aFmQv)}
               >
-                <h1
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h1,
-                    projectcss.__wab_text,
-                    sty.h1__mcCWq
-                  )}
+                <Reveal
+                  className={classNames("__wab_instance", sty.reveal__zr45J)}
+                  direction={"right"}
+                  effect={"slide"}
+                  triggerOnce={true}
                 >
-                  {"Otter World"}
-                </h1>
-                <h4
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h4,
-                    projectcss.__wab_text,
-                    sty.h4__s80O2
-                  )}
-                >
-                  {
-                    "Otter World is a comprehensive DeFi platform integrating cutting-edge technology and AI to provide a seamless and secure experience. Join us and be a part of our vibrant community!"
-                  }
-                </h4>
-                <h4
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h4,
-                    projectcss.__wab_text,
-                    sty.h4__iwlZs
-                  )}
-                >
-                  {
-                    "Our mission is to redefine the DeFi ecosystem by making it accessible, secure, and engaging for everyone. We believe in the power of decentralization and aim to empower users by providing innovative tools and features that simplify and enhance their financial activities."
-                  }
-                </h4>
+                  <Stack__
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__rdpup)}
+                  >
+                    <h1
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h1,
+                        projectcss.__wab_text,
+                        sty.h1__jvXnT
+                      )}
+                    >
+                      {"What is Otter?"}
+                    </h1>
+                    <h4
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h4,
+                        projectcss.__wab_text,
+                        sty.h4__h4Kia
+                      )}
+                    >
+                      {
+                        "Otter World is a comprehensive DeFi platform integrating cutting-edge technology and AI to provide a seamless and secure experience. Join us and be a part of our vibrant community!"
+                      }
+                    </h4>
+                    <h4
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h4,
+                        projectcss.__wab_text,
+                        sty.h4__ht320
+                      )}
+                    >
+                      {
+                        "Our mission is to redefine the DeFi ecosystem by making it accessible, secure, and engaging for everyone. We believe in the power of decentralization and aim to empower users by providing innovative tools and features that simplify and enhance their financial activities."
+                      }
+                    </h4>
+                  </Stack__>
+                </Reveal>
               </Stack__>
             </div>
           </section>
           <section className={classNames(projectcss.all, sty.section___1Nyr)}>
-            <div className={classNames(projectcss.all, sty.freeBox__bejzL)}>
+            <Stack__
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox__bejzL)}
+            >
+              <h4
+                className={classNames(
+                  projectcss.all,
+                  projectcss.h4,
+                  projectcss.__wab_text,
+                  sty.h4___2Tkk8
+                )}
+              >
+                {"Ecosystem"}
+              </h4>
               <h1
                 className={classNames(
                   projectcss.all,
                   projectcss.h1,
                   projectcss.__wab_text,
-                  sty.h1___2Tkk8
+                  sty.h1__h1Pan
                 )}
               >
                 {"Otter Kingdom"}
               </h1>
-            </div>
+            </Stack__>
             <Stack__
               as={"div"}
               hasGap={true}
               className={classNames(projectcss.all, sty.columns___7VoMb)}
             >
               <div className={classNames(projectcss.all, sty.column___6PRnW)}>
+                <Stack__
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__fo1Hq)}
+                >
+                  <h3
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h3,
+                      projectcss.__wab_text,
+                      sty.h3__bJo6L
+                    )}
+                  >
+                    {"Otter Wallet: Your DeFi Gateway"}
+                  </h3>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__pCxql
+                    )}
+                  >
+                    {
+                      "The cornerstone of our ecosystem, Otter Wallet, offers a secure and user-friendly interface for managing your digital assets. With advanced security protocols and seamless integration with other DeFi services"
+                    }
+                  </div>
+                </Stack__>
                 <PlasmicImg__
                   alt={""}
-                  className={classNames(sty.img___98Ncn)}
+                  className={classNames(sty.img__b0TL)}
                   displayHeight={"auto"}
                   displayMaxHeight={"none"}
                   displayMaxWidth={"100%"}
                   displayMinHeight={"0"}
                   displayMinWidth={"0"}
-                  displayWidth={"100%"}
+                  displayWidth={"auto"}
                   loading={"lazy"}
                   src={{
-                    src: "/plasmic/otterworld/images/otterwalletpng2.png",
-                    fullWidth: 1024,
-                    fullHeight: 1024,
+                    src: "/plasmic/otterworld/images/mockup1Png.png",
+                    fullWidth: 2000,
+                    fullHeight: 2000,
                     aspectRatio: undefined
                   }}
                 />
               </div>
-              <Stack__
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.column__kVvNn)}
-              >
-                <h3
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h3,
-                    projectcss.__wab_text,
-                    sty.h3__j0QDu
-                  )}
+              <div className={classNames(projectcss.all, sty.column__wnu6A)}>
+                <Stack__
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__xcCgp)}
                 >
-                  {"Otter Wallet: Your DeFi Gateway"}
-                </h3>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__e2Cbf
-                  )}
-                >
-                  {
-                    "The cornerstone of our ecosystem, Otter Wallet, offers a secure and user-friendly interface for managing your digital assets. With advanced security protocols and seamless integration with other DeFi services"
-                  }
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text___5Ynu
-                  )}
-                >
-                  {
-                    "\ud83d\udda5\ufe0f User-Friendly Interface\n\ud83d\udd04 Built-In Swap\n\ud83d\udcca Portfolio Management"
-                  }
-                </div>
-              </Stack__>
-            </Stack__>
-            <Stack__
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.columns__ibUau)}
-            >
-              <Stack__
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.column__zLmy)}
-              >
-                <h3
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h3,
-                    projectcss.__wab_text,
-                    sty.h3__qZiLa
-                  )}
-                >
-                  {"Otter Guard: AI-Based Security"}
-                </h3>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__roMaN
-                  )}
-                >
-                  {
-                    "Our AI-powered security solution, Otter Guard, provides real-time protection for your assets. By continuously monitoring transactions and assessing potential threats, Otter Guard ensures a secure environment for all your DeFi activities"
-                  }
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__zxb9I
-                  )}
-                >
-                  {
-                    "\ud83d\udee1\ufe0f Advanced Threat Detection\n\ud83d\udd0d Smart Contract Auditing\n\ud83d\udee1\ufe0f Asset Protection"
-                  }
-                </div>
-              </Stack__>
-              <div className={classNames(projectcss.all, sty.column__jvLvO)}>
+                  <h3
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h3,
+                      projectcss.__wab_text,
+                      sty.h3__drfQq
+                    )}
+                  >
+                    {"Otter Guard: AI-Based Security"}
+                  </h3>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__oN0NJ
+                    )}
+                  >
+                    {
+                      "Our AI-powered security solution, Otter Guard, provides real-time protection for your assets. By continuously monitoring transactions and assessing potential threats, Otter Guard ensures a secure environment for all your DeFi activities"
+                    }
+                  </div>
+                </Stack__>
                 <PlasmicImg__
                   alt={""}
-                  className={classNames(sty.img__vpspT)}
+                  className={classNames(sty.img__wWp9)}
                   displayHeight={"auto"}
                   displayMaxHeight={"none"}
                   displayMaxWidth={"100%"}
                   displayMinHeight={"0"}
                   displayMinWidth={"0"}
-                  displayWidth={"100%"}
+                  displayWidth={"auto"}
                   loading={"lazy"}
                   src={{
-                    src: "/plasmic/otterworld/images/otterAIpng.png",
-                    fullWidth: 1024,
-                    fullHeight: 1024,
+                    src: "/plasmic/otterworld/images/character3Croppng.png",
+                    fullWidth: 1000,
+                    fullHeight: 1000,
                     aspectRatio: undefined
                   }}
                 />
               </div>
-            </Stack__>
-            <Stack__
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.columns__usOmo)}
-            >
-              <div className={classNames(projectcss.all, sty.column__rs9Z6)}>
+              <div className={classNames(projectcss.all, sty.column___6FahF)}>
+                <Stack__
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__rjmfP)}
+                >
+                  <h3
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.h3,
+                      projectcss.__wab_text,
+                      sty.h3__wxCO
+                    )}
+                  >
+                    {"Otter Wallet: Your DeFi Gateway"}
+                  </h3>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___1CcQx
+                    )}
+                  >
+                    {
+                      "The cornerstone of our ecosystem, Otter Wallet, offers a secure and user-friendly interface for managing your digital assets. With advanced security protocols and seamless integration with other DeFi services"
+                    }
+                  </div>
+                </Stack__>
                 <PlasmicImg__
                   alt={""}
-                  className={classNames(sty.img__bp5V)}
+                  className={classNames(sty.img__yem5D)}
                   displayHeight={"auto"}
                   displayMaxHeight={"none"}
                   displayMaxWidth={"100%"}
                   displayMinHeight={"0"}
                   displayMinWidth={"0"}
-                  displayWidth={"100%"}
+                  displayWidth={"auto"}
                   loading={"lazy"}
                   src={{
-                    src: "/plasmic/otterworld/images/otterchestpng.png",
-                    fullWidth: 1024,
-                    fullHeight: 1024,
+                    src: "/plasmic/otterworld/images/mockup2Croppng.png",
+                    fullWidth: 1000,
+                    fullHeight: 1000,
                     aspectRatio: undefined
                   }}
                 />
               </div>
-              <Stack__
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.column__eMtVb)}
-              >
-                <h3
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.h3,
-                    projectcss.__wab_text,
-                    sty.h3__evmF0
-                  )}
-                >
-                  {"Otter Chest"}
-                </h3>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__w8RAb
-                  )}
-                >
-                  {"Instant asset swapping directly from the wallet."}
-                </div>
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__hHeJm
-                  )}
-                >
-                  {
-                    "\u26a1 Effortless Asset Interchange\n\ud83d\udd04 Universal Token Compatibility\n\ud83d\udcb8 Cost-Effective Transactions"
-                  }
-                </div>
-              </Stack__>
             </Stack__>
           </section>
-          <section className={classNames(projectcss.all, sty.section__dHqsF)}>
-            <h1
-              className={classNames(
-                projectcss.all,
-                projectcss.h1,
-                projectcss.__wab_text,
-                sty.h1__gcyTs
-              )}
-            >
-              {"Our Roadmap"}
-            </h1>
-            <div className={classNames(projectcss.all, sty.freeBox__wM2No)}>
-              <PlasmicImg__
-                alt={""}
-                className={classNames(sty.img__q3Ckc)}
-                displayHeight={"auto"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"auto"}
-                loading={"lazy"}
-                src={{
-                  src: "/plasmic/otterworld/images/maps1Minpng.png",
-                  fullWidth: 1024,
-                  fullHeight: 1821,
-                  aspectRatio: undefined
-                }}
-              />
+          <section className={classNames(projectcss.all, sty.section__wr0Su)}>
+            <div className={classNames(projectcss.all, sty.columns__nyKw5)}>
+              <div className={classNames(projectcss.all, sty.column__ubVAy)}>
+                <Reveal
+                  className={classNames("__wab_instance", sty.reveal__okjq4)}
+                  direction={"left"}
+                  effect={"slide"}
+                  triggerOnce={true}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__pNhdt)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"100%"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/otterworld/images/characterpng.png",
+                      fullWidth: 1828,
+                      fullHeight: 1828,
+                      aspectRatio: undefined
+                    }}
+                  />
+                </Reveal>
+              </div>
+              <Stack__
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.column__dhmxm)}
+              >
+                <Reveal
+                  className={classNames("__wab_instance", sty.reveal__ejAfj)}
+                  direction={"right"}
+                  effect={"slide"}
+                  triggerOnce={true}
+                >
+                  <Stack__
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox__oJtPr)}
+                  >
+                    <h2
+                      data-plasmic-name={"h2"}
+                      data-plasmic-override={overrides.h2}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h2,
+                        projectcss.__wab_text,
+                        sty.h2
+                      )}
+                    >
+                      {"What is Otter?"}
+                    </h2>
+                    <h6
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.h6,
+                        projectcss.__wab_text,
+                        sty.h6__wWo2G
+                      )}
+                    >
+                      {
+                        "Otter World is a comprehensive DeFi platform integrating cutting-edge technology and AI to provide a seamless and secure experience. Join us and be a part of our vibrant community!"
+                      }
+                    </h6>
+                    <Stack__
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__lKZM)}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img___1Nwv6)}
+                        displayHeight={"52px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"52px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/otterworld/images/asset3Img1Png.png",
+                          fullWidth: 62,
+                          fullHeight: 58,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <Stack__
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__k0RpO
+                        )}
+                      >
+                        <h4
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h4,
+                            projectcss.__wab_text,
+                            sty.h4__qBkqr
+                          )}
+                        >
+                          {"Lorem ipsum"}
+                        </h4>
+                        <h6
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h6,
+                            projectcss.__wab_text,
+                            sty.h6__gUl7Z
+                          )}
+                        >
+                          {
+                            "Otter World is a comprehensive DeFi platform integrating cutting-edge technology and AI to provide a seamless and secure experience. Join us and be a part of our vibrant community!"
+                          }
+                        </h6>
+                      </Stack__>
+                    </Stack__>
+                    <Stack__
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___54E4O
+                      )}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__dgzl9)}
+                        displayHeight={"52px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"52px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/otterworld/images/asset3Img1Png.png",
+                          fullWidth: 62,
+                          fullHeight: 58,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <Stack__
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox___36Vij
+                        )}
+                      >
+                        <h4
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h4,
+                            projectcss.__wab_text,
+                            sty.h4__n9KHd
+                          )}
+                        >
+                          {"Lorem ipsum"}
+                        </h4>
+                        <h6
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h6,
+                            projectcss.__wab_text,
+                            sty.h6__mH96R
+                          )}
+                        >
+                          {
+                            "Otter World is a comprehensive DeFi platform integrating cutting-edge technology and AI to provide a seamless and secure experience. Join us and be a part of our vibrant community!"
+                          }
+                        </h6>
+                      </Stack__>
+                    </Stack__>
+                    <Stack__
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___5Uz12
+                      )}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__zf1Hl)}
+                        displayHeight={"52px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"52px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/otterworld/images/asset3Img1Png.png",
+                          fullWidth: 62,
+                          fullHeight: 58,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <Stack__
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__adAd2
+                        )}
+                      >
+                        <h4
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h4,
+                            projectcss.__wab_text,
+                            sty.h4___0RRl6
+                          )}
+                        >
+                          {"Lorem ipsum"}
+                        </h4>
+                        <h6
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h6,
+                            projectcss.__wab_text,
+                            sty.h6__v0Lv9
+                          )}
+                        >
+                          {
+                            "Otter World is a comprehensive DeFi platform integrating cutting-edge technology and AI to provide a seamless and secure experience. Join us and be a part of our vibrant community!"
+                          }
+                        </h6>
+                      </Stack__>
+                    </Stack__>
+                  </Stack__>
+                </Reveal>
+              </Stack__>
             </div>
           </section>
           <section className={classNames(projectcss.all, sty.section__vxmSq)}>
@@ -687,54 +969,150 @@ function PlasmicHomepage__RenderFunc(props: {
             </Stack__>
           </section>
           <section className={classNames(projectcss.all, sty.section__rAa1L)}>
-            <div className={classNames(projectcss.all, sty.freeBox__vbJ7Y)}>
-              <h1
-                className={classNames(
-                  projectcss.all,
-                  projectcss.h1,
-                  projectcss.__wab_text,
-                  sty.h1__zfB
-                )}
-              >
-                {"Lets Join & Start today"}
-              </h1>
-              <PlasmicImg__
-                alt={""}
-                className={classNames(sty.img__sFQn)}
-                displayHeight={"150px"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"auto"}
-                loading={"lazy"}
-                src={{
-                  src: "/plasmic/otterworld/images/buttonappspng.png",
-                  fullWidth: 1170,
-                  fullHeight: 360,
-                  aspectRatio: undefined
-                }}
-              />
+            <div className={classNames(projectcss.all, sty.freeBox__lBXqY)}>
+              <div className={classNames(projectcss.all, sty.freeBox__vbJ7Y)}>
+                <h1
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.h1,
+                    projectcss.__wab_text,
+                    sty.h1__zfB
+                  )}
+                >
+                  {"Lets Join & Start today"}
+                </h1>
+                <h6
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.h6,
+                    projectcss.__wab_text,
+                    sty.h6__zUdl4
+                  )}
+                >
+                  {"Lets Join & Start today"}
+                </h6>
+              </div>
             </div>
+            <PlasmicImg__
+              alt={""}
+              className={classNames(sty.img__cgVjr)}
+              displayHeight={"auto"}
+              displayMaxHeight={"none"}
+              displayMaxWidth={"100%"}
+              displayMinHeight={"0"}
+              displayMinWidth={"0"}
+              displayWidth={"400px"}
+              loading={"lazy"}
+              src={{
+                src: "/plasmic/otterworld/images/mockup2Croppng.png",
+                fullWidth: 1000,
+                fullHeight: 1000,
+                aspectRatio: undefined
+              }}
+            />
           </section>
           <section className={classNames(projectcss.all, sty.section__vveD9)}>
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__p2Am4
-              )}
-            >
-              {"Contact: admin@otterworld.com |  DeFi City, Otter World"}
-            </div>
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__kjFiM
-              )}
-            >
-              {"\u00a9 2024 Otter World. All rights reserved."}
+            <div className={classNames(projectcss.all, sty.columns__fawW1)}>
+              <div className={classNames(projectcss.all, sty.column__mJW)}>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__yavvI)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"200px"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/otterworld/images/textOtterworldpng.png",
+                    fullWidth: 4000,
+                    fullHeight: 2667,
+                    aspectRatio: undefined
+                  }}
+                />
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__oz4Jv
+                  )}
+                >
+                  {
+                    "Otter World is a comprehensive DeFi platform integrating cutting-edge technology "
+                  }
+                </div>
+                <Stack__
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__z962B)}
+                >
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__ucPmI
+                    )}
+                    component={Link}
+                    platform={"nextjs"}
+                  >
+                    <Twitter2SvgrepoComsvgIcon
+                      className={classNames(projectcss.all, sty.svg__xsOnI)}
+                      role={"img"}
+                    />
+                  </PlasmicLink__>
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__uaGmN
+                    )}
+                    component={Link}
+                    platform={"nextjs"}
+                  >
+                    <TelegramSvgrepoComsvgIcon
+                      className={classNames(projectcss.all, sty.svg___4PNqK)}
+                      role={"img"}
+                    />
+                  </PlasmicLink__>
+                  <PlasmicLink__
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.link__cNWkC
+                    )}
+                    component={Link}
+                    platform={"nextjs"}
+                  >
+                    <GitbookSvgrepoComsvgIcon
+                      className={classNames(projectcss.all, sty.svg__zTvN)}
+                      role={"img"}
+                    />
+                  </PlasmicLink__>
+                </Stack__>
+              </div>
+              <div className={classNames(projectcss.all, sty.column___0HtGc)} />
+
+              <div className={classNames(projectcss.all, sty.column__nndYs)}>
+                <PlasmicImg__
+                  alt={""}
+                  className={classNames(sty.img__vGnpw)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/otterworld/images/buttonappspng.png",
+                    fullWidth: 1170,
+                    fullHeight: 360,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
             </div>
           </section>
         </div>
@@ -744,9 +1122,11 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "pageMetadataOverride", "navigationBar"],
+  root: ["root", "pageMetadataOverride", "navigationBar", "h5", "h2"],
   pageMetadataOverride: ["pageMetadataOverride"],
-  navigationBar: ["navigationBar"]
+  navigationBar: ["navigationBar"],
+  h5: ["h5"],
+  h2: ["h2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -755,6 +1135,8 @@ type NodeDefaultElementType = {
   root: "div";
   pageMetadataOverride: typeof PlasmicHead;
   navigationBar: typeof NavigationBar;
+  h5: "h5";
+  h2: "h2";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -819,6 +1201,8 @@ export const PlasmicHomepage = Object.assign(
     // Helper components rendering sub-elements
     pageMetadataOverride: makeNodeComponent("pageMetadataOverride"),
     navigationBar: makeNodeComponent("navigationBar"),
+    h5: makeNodeComponent("h5"),
+    h2: makeNodeComponent("h2"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,

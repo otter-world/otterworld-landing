@@ -430,6 +430,76 @@
           "id": "D2ib0rZuPyjI",
           "name": "Group 4 (4).png",
           "filePath": "../public/plasmic/otterworld/images/group44Png.png"
+        },
+        {
+          "id": "89bMSFsUEXkZ",
+          "name": "Header 1.jpg",
+          "filePath": "../public/plasmic/otterworld/images/header1Jpg.jpg"
+        },
+        {
+          "id": "ZQ1G_-dw6MA8",
+          "name": "cloud 1.png",
+          "filePath": "../public/plasmic/otterworld/images/cloud1Png.png"
+        },
+        {
+          "id": "Z0aqU_F2sxgK",
+          "name": "cloud 2.png",
+          "filePath": "../public/plasmic/otterworld/images/cloud2Png.png"
+        },
+        {
+          "id": "t4WhJd6gUHA2",
+          "name": "Text Otterworld.png",
+          "filePath": "../public/plasmic/otterworld/images/textOtterworldpng.png"
+        },
+        {
+          "id": "I1aCl4_WwAlR",
+          "name": "Character.png",
+          "filePath": "../public/plasmic/otterworld/images/characterpng.png"
+        },
+        {
+          "id": "wPp6CfAjIyV2",
+          "name": "button 1.png",
+          "filePath": "../public/plasmic/otterworld/images/button1Png.png"
+        },
+        {
+          "id": "N1wWgVHsxjVh",
+          "name": "PP 1-com.png",
+          "filePath": "../public/plasmic/otterworld/images/pp1Compng.png"
+        },
+        {
+          "id": "EVJNr6euVSRn",
+          "name": "wood feature.png",
+          "filePath": "../public/plasmic/otterworld/images/woodFeaturepng.png"
+        },
+        {
+          "id": "pjtGmxfj5vR3",
+          "name": "mockup 1.png",
+          "filePath": "../public/plasmic/otterworld/images/mockup1Png.png"
+        },
+        {
+          "id": "ZDv5HIujjCqd",
+          "name": "character 3-crop.png",
+          "filePath": "../public/plasmic/otterworld/images/character3Croppng.png"
+        },
+        {
+          "id": "71W-vf_NGzSN",
+          "name": "mockup 2-crop.png",
+          "filePath": "../public/plasmic/otterworld/images/mockup2Croppng.png"
+        },
+        {
+          "id": "cLnqBfCUxc27",
+          "name": "Header 2.jpg",
+          "filePath": "../public/plasmic/otterworld/images/header2Jpg.jpg"
+        },
+        {
+          "id": "ToDcgpTdcKo9",
+          "name": "Asset-3img1.png",
+          "filePath": "../public/plasmic/otterworld/images/asset3Img1Png.png"
+        },
+        {
+          "id": "KAq3LhFYCtBG",
+          "name": "bakcground 2-min.jpg",
+          "filePath": "../public/plasmic/otterworld/images/bakcground2Minjpg.jpg"
         }
       ],
       "indirect": false,
@@ -450,6 +520,28 @@
         }
       ],
       "customFunctions": []
+    },
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": ">0.0.0",
+      "cssFilePath": "plasmic/react_awesome_reveal/plasmic.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "splitsProviderFilePath": "",
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "displayName": "hostless-reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ],
+      "customFunctions": []
     }
   ],
   "globalVariants": {
@@ -466,6 +558,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.330",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.330/dist/plasmic.schema.json"
+  "cliVersion": "0.1.331",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.331/dist/plasmic.schema.json"
 }

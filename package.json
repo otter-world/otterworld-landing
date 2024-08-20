@@ -9,9 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@plasmicapp/cli": "^0.1.330",
+    "@plasmicapp/cli": "^0.1.331",
     "@plasmicapp/react-web": "^0.2.342",
     "@plasmicpkgs/plasmic-nav": "^0.0.169",
+    "@plasmicpkgs/react-awesome-reveal": "^3.8.208",
     "@plasmicpkgs/react-scroll-parallax": "^0.0.206",
     "next": "14.2.4",
     "react": "^18",
