@@ -439,23 +439,11 @@ function PlasmicHomepage__RenderFunc(props: {
                         projectcss.all,
                         projectcss.h4,
                         projectcss.__wab_text,
-                        sty.h4__h4Kia
-                      )}
-                    >
-                      {
-                        "Otter World is a comprehensive DeFi platform integrating cutting-edge technology and AI to provide a seamless and secure experience. Join us and be a part of our vibrant community!"
-                      }
-                    </h4>
-                    <h4
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h4,
-                        projectcss.__wab_text,
                         sty.h4__ht320
                       )}
                     >
                       {
-                        "Our mission is to redefine the DeFi ecosystem by making it accessible, secure, and engaging for everyone. We believe in the power of decentralization and aim to empower users by providing innovative tools and features that simplify and enhance their financial activities."
+                        "Otter World is a next-gen DeFi platform designed to make decentralized finance accessible and user-friendly. With innovative tools like the Otter Wallet, Otter Guard, and Otter Swap, Otter World empowers users to securely manage, trade, and protect their digital asset. all within an ecosystem that's easy to navigate, even for newcomers to the crypto space."
                       }
                     </h4>
                   </Stack__>
@@ -509,7 +497,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.h3__bJo6L
                     )}
                   >
-                    {"Otter Wallet: Your DeFi Gateway"}
+                    {"Otter Wallet"}
                   </h3>
                   <div
                     className={classNames(
@@ -519,7 +507,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     )}
                   >
                     {
-                      "The cornerstone of our ecosystem, Otter Wallet, offers a secure and user-friendly interface for managing your digital assets. With advanced security protocols and seamless integration with other DeFi services"
+                      "A secure, all-in-one DeFi wallet that simplifies asset management. Log in with just an email and enjoy seamless access to storing, swapping, and investing in crypto without the hassle of managing seed phrases."
                     }
                   </div>
                 </Stack__>
@@ -555,7 +543,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.h3__drfQq
                     )}
                   >
-                    {"Otter Guard: AI-Based Security"}
+                    {"Otter Guard"}
                   </h3>
                   <div
                     className={classNames(
@@ -565,7 +553,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     )}
                   >
                     {
-                      "Our AI-powered security solution, Otter Guard, provides real-time protection for your assets. By continuously monitoring transactions and assessing potential threats, Otter Guard ensures a secure environment for all your DeFi activities"
+                      "Your personal DeFi security system. Powered by AI, Otter Guard monitors transactions, detects threats, and ensures that your assets remain safe in the unpredictable world of decentralized finance."
                     }
                   </div>
                 </Stack__>
@@ -601,7 +589,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.h3__wxCO
                     )}
                   >
-                    {"Otter Wallet: Your DeFi Gateway"}
+                    {"Otter Wallet"}
                   </h3>
                   <div
                     className={classNames(
@@ -611,7 +599,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     )}
                   >
                     {
-                      "The cornerstone of our ecosystem, Otter Wallet, offers a secure and user-friendly interface for managing your digital assets. With advanced security protocols and seamless integration with other DeFi services"
+                      "An intuitive token exchange platform that allows you to swap various cryptocurrencies directly from your Otter Wallet. With Otter Swap, diversify your holdings and explore new opportunities in the DeFi space effortlessly."
                     }
                   </div>
                 </Stack__>
@@ -689,20 +677,8 @@ function PlasmicHomepage__RenderFunc(props: {
                         sty.h2
                       )}
                     >
-                      {"What is Otter?"}
+                      {"Essential Features"}
                     </h2>
-                    <h6
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h6,
-                        projectcss.__wab_text,
-                        sty.h6__wWo2G
-                      )}
-                    >
-                      {
-                        "Otter World is a comprehensive DeFi platform integrating cutting-edge technology and AI to provide a seamless and secure experience. Join us and be a part of our vibrant community!"
-                      }
-                    </h6>
                     <Stack__
                       as={"div"}
                       hasGap={true}
@@ -742,7 +718,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h4__qBkqr
                           )}
                         >
-                          {"Lorem ipsum"}
+                          {"Otter Guild"}
                         </h4>
                         <h6
                           className={classNames(
@@ -753,7 +729,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           )}
                         >
                           {
-                            "Otter World is a comprehensive DeFi platform integrating cutting-edge technology and AI to provide a seamless and secure experience. Join us and be a part of our vibrant community!"
+                            "A community-based platform with a leveling system that rewards active participation. Unlock different levels such as Iron, Silver, Gold, Mythril, and Adamantium for exclusive perks and benefits."
                           }
                         </h6>
                       </Stack__>
@@ -800,7 +776,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h4__n9KHd
                           )}
                         >
-                          {"Lorem ipsum"}
+                          {"Launchpad"}
                         </h4>
                         <h6
                           className={classNames(
@@ -811,7 +787,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           )}
                         >
                           {
-                            "Otter World is a comprehensive DeFi platform integrating cutting-edge technology and AI to provide a seamless and secure experience. Join us and be a part of our vibrant community!"
+                            "A gateway to early access to the most promising projects in the DeFi space. Invest in the future with our strategic platform designed to propel you to the forefront of innovation."
                           }
                         </h6>
                       </Stack__>
@@ -858,7 +834,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.h4___0RRl6
                           )}
                         >
-                          {"Lorem ipsum"}
+                          {"Lucky Draw"}
                         </h4>
                         <h6
                           className={classNames(
@@ -869,7 +845,62 @@ function PlasmicHomepage__RenderFunc(props: {
                           )}
                         >
                           {
-                            "Otter World is a comprehensive DeFi platform integrating cutting-edge technology and AI to provide a seamless and secure experience. Join us and be a part of our vibrant community!"
+                            "Participate in the Wheel of Fortune events like the Lucky Draw, where you have the chance to win valuable tokens and assets. It's a fun and exciting way to engage with the Otter community while potentially gaining significant rewards."
+                          }
+                        </h6>
+                      </Stack__>
+                    </Stack__>
+                    <Stack__
+                      as={"div"}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.freeBox__nhUz4)}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__kcccC)}
+                        displayHeight={"52px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"52px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/otterworld/images/asset3Img1Png.png",
+                          fullWidth: 62,
+                          fullHeight: 58,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <Stack__
+                        as={"div"}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__nGof9
+                        )}
+                      >
+                        <h4
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h4,
+                            projectcss.__wab_text,
+                            sty.h4__dcgId
+                          )}
+                        >
+                          {"AI Trading Analysis & DeFi Copytrade"}
+                        </h4>
+                        <h6
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h6,
+                            projectcss.__wab_text,
+                            sty.h6__nLtk3
+                          )}
+                        >
+                          {
+                            "Leverage cutting-edge AI tools for trading analysis and copy the successful strategies of experienced traders to maximize your gains in the DeFi market.\n"
                           }
                         </h6>
                       </Stack__>
@@ -970,7 +1001,11 @@ function PlasmicHomepage__RenderFunc(props: {
           </section>
           <section className={classNames(projectcss.all, sty.section__rAa1L)}>
             <div className={classNames(projectcss.all, sty.freeBox__lBXqY)}>
-              <div className={classNames(projectcss.all, sty.freeBox__vbJ7Y)}>
+              <Stack__
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__vbJ7Y)}
+              >
                 <h1
                   className={classNames(
                     projectcss.all,
@@ -979,7 +1014,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     sty.h1__zfB
                   )}
                 >
-                  {"Lets Join & Start today"}
+                  {"Embark on Your DeFi Journey Today"}
                 </h1>
                 <h6
                   className={classNames(
@@ -989,9 +1024,11 @@ function PlasmicHomepage__RenderFunc(props: {
                     sty.h6__zUdl4
                   )}
                 >
-                  {"Lets Join & Start today"}
+                  {
+                    "Otter World empowers your digital journey with seamless DeFi tools and a strong community. Join us and experience innovation in decentralized finance."
+                  }
                 </h6>
-              </div>
+              </Stack__>
             </div>
             <PlasmicImg__
               alt={""}
@@ -1001,7 +1038,7 @@ function PlasmicHomepage__RenderFunc(props: {
               displayMaxWidth={"100%"}
               displayMinHeight={"0"}
               displayMinWidth={"0"}
-              displayWidth={"400px"}
+              displayWidth={"500px"}
               loading={"lazy"}
               src={{
                 src: "/plasmic/otterworld/images/mockup2Croppng.png",
