@@ -589,7 +589,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       sty.h3__wxCO
                     )}
                   >
-                    {"Otter Wallet"}
+                    {"Otter Swap"}
                   </h3>
                   <div
                     className={classNames(
@@ -1025,7 +1025,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   )}
                 >
                   {
-                    "Otter World empowers your digital journey with seamless DeFi tools and a strong community. Join us and experience innovation in decentralized finance."
+                    "Join us and experience innovation in decentralized finance."
                   }
                 </h6>
               </Stack__>
@@ -1077,7 +1077,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   )}
                 >
                   {
-                    "Otter World is a comprehensive DeFi platform integrating cutting-edge technology "
+                    "Otter World empowers your digital journey with seamless DeFi tools and a strong community. "
                   }
                 </div>
                 <Stack__
